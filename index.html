@@ -98,7 +98,7 @@
     </style>
 </head>
 <body>
-    <h1>Random Dish Generator</h1>
+    <h1>რენდომ კერძის გენერატორი</h1>
     
     <div class="filters">
         <label class="filter-option">
@@ -111,18 +111,18 @@
             <input type="checkbox" class="filter-checkbox" value="ძირითადი" checked> ძირითადი
         </label>
         <label class="filter-option">
-            <input type="checkbox" class="filter-checkbox" value="dessert" checked> Dessert
+            <input type="checkbox" class="filter-checkbox" value="დესერტი" checked> დესერტი
         </label>
         <label class="filter-option">
-            <input type="checkbox" class="filter-checkbox" value="appetizer" checked> Appetizer
+            <input type="checkbox" class="filter-checkbox" value="აპეტაიზერი" checked> აპეტაიზერი
         </label>
     </div>
     
-    <button id="generate-btn">Generate Random Dish</button>
+    <button id="generate-btn">რენდომ კერძი</button>
     
-    <div id="result">Click the button to generate a random dish!</div>
+    <div id="result">დააჭირე მწვანე ღილაკს, რათა დაგენერირდეს რენდომ კერძი</div>
     
-    <button id="view-all-btn">View All Dishes</button>
+    <button id="view-all-btn">ნახე ყველა კერძი</button>
     
     <!-- The Modal -->
     <div id="dishes-modal" class="modal">
@@ -136,12 +136,12 @@
     <script>
         // Sample dish database
         const dishes = [
-            { name: "Chocolate Cake", category: "dessert" },
-            { name: "Ice Cream", category: "dessert" },
-            { name: "Bruschetta", category: "appetizer" },
-            { name: "Spring Rolls", category: "appetizer" },
-            { name: "Tiramisu", category: "dessert" },
-            { name: "Stuffed Mushrooms", category: "appetizer" },
+            { name: "შოკოლადის ნამცხვარი", category: "დესერტი" },
+            { name: "ნაყინი", category: "დესერტი" },
+            { name: "Bruschetta", category: "აპეტაიზერი" },
+            { name: "Spring Rolls", category: "აპეტაიზერი" },
+            { name: "ტირამისუ", category: "დესერტი" },
+            { name: "Stuffed Mushrooms", category: "აპეტაიზერი" },
             { name: "შემწვარი კარტოფილი", category: "ძირითადი" },
             { name: "პიურე", category: "ძირითადი" },
             { name: "კატლეტი", category: "ძირითადი" },
